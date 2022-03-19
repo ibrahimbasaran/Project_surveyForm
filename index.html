@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="transparent">
+    <header>
+        <h1 id="title"><img src="https://fontmeme.com/permalink/210924/1b7bd7c714395f5af50fd1fc5bd36ad6.png" alt="netflix-font"></h1>
+        <br>
+        <p id="description"><em><strong>Thank you for signing up at Netflix. Tell us more about yourself</strong></em></p>
+    </header>
+    <form action="result.html" id="survey-form">
+    <div>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" class="box" placeholder="Enter Your Name">
+    </div>
+    <br>
+    <div>
+        <label for="age">Age</label><br>
+        <input type="number" name="age" id="age" class="box" placeholder="Age">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" class="box" placeholder="Enter Your Email">
+    </div>
+    <br>
+    <div>
+        <label for="content">Content type</label>
+        <br>
+        <select name="content" id="content" size="1">
+            <option value="series">Series</option>
+            <option value="movies">Movies</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>Movie type</label>
+        <br>
+        <input type="checkbox" name="type_1" id="comedy" value="comedy">
+        <label for="comedy">Comedy</label>
+        <br>
+        <input type="checkbox" name="type_2" id="action" value="action">
+        <label for="action">Action</label>
+        <br>
+        <input type="checkbox" name="type_3" id="romance" value="romance" checked>
+        <label for="romance">Romance</label>
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+    </div>
+    <br>
+    <div>
+        <label for="comment">Feed back</label><br>
+        <textarea type="text" id="comment" name="comment" placeholder="Any comment" rows="5" cols="40"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Submit" class="butt">
+    </div>
+    </form>
+    </main>
+</body>
+</html>

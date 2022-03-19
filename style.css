@@ -1,0 +1,58 @@
+html,
+body {
+    background-image: url(background_image.jpg);
+    text-align: center;
+}
+.transparent {
+    width: auto;
+    height: auto;
+    background-color: rgba(14, 13, 13, 0.5);
+    margin: auto;
+}
+header p   {
+    color:white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.butt {
+    background-color: #ff0000;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+} 
+.butt:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+#survey-form {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(14, 13, 13, 0.9);
+    color: white;
+    width: 400px; 
+    margin:auto;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.box {
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding: 15px;
+    outline: none;
+    font-size: 14px;
+  }
+#content {
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+}
+
